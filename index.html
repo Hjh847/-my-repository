@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第一次随堂任务</title>
+    <style>
+        /* --- 全局样式重置 --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background-color: #f5f5f5; /* 浅灰背景 */
+            color: #333;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto; /* 居中显示 */
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+
+        /* --- 顶部标题区 --- */
+        .top-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .top-title h1 {
+            font-size: 32px;
+            font-weight: bold;
+            /* 这里的字体替换为你素材里的字体文件名 */
+            /* font-family: 'YourCustomFont', sans-serif; */ 
+        }
+
+        /* --- 核心内容区 (左右布局) --- */
+        .core-content {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .column {
+            flex: 1;
+            text-align: center;
+        }
+
+        .column img.icon {
+            width: 80px; /* 图标大小 */
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .column p {
+            font-size: 14px;
+            line-height: 1.8;
+            text-align: justify; /* 两端对齐 */
+            color: #555;
+            /* 这里把文字替换成你素材里的真实介绍文字 */
+        }
+
+        /* --- 底部平台支持区 --- */
+        .platform-support {
+            text-align: center;
+        }
+        
+        .platform-support h2 {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .platform-list {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .platform-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .platform-item img {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .platform-item span {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 顶部标题 -->
+        <div class="top-title">
+            <h1>万物互联、极致体验</h1>
+        </div>
+
+        <!-- 核心内容区 (左右两列) -->
+        <div class="core-content">
+            <!-- 左侧：HTML5 -->
+            <div class="column">
+                <!-- 这里需要替换成你的 HTML5 图标图片，比如 html5.png -->
+                <img src="images/1.png" class="icon">
+                <p>
+                    【HTML5】HTML5不仅将HTML规范的最新版本，HTML5规范的最大亮点在于对HTML5以及规范带来了几个类别的革新。HTML5规定以“用户至上”为初心。在标准规范中明确界定时，规范的核心是“用户”的“实践需求”（浏览需求）>规范开发者（W3C/WHATWG）>浏览器。除此之外，HTML5规范还引入了一种新的安全模型用来保证HTML5的安全。
+                </p >
+            </div>
+
+            <!-- 右侧：CSS3 -->
+            <div class="column">
+                <!-- 这里需要替换成你的 CSS3 图标图片，比如 css3.png -->
+                <img src="images/2.png" alt="CSS3图标" class="icon">
+                <p>
+                    【HTML5】CSS3不仅将CSS规范的最新版本，CSS3规范的最大亮点在于对CSS3以及规范带来了几个类别的革新。CSS3规定以“用户至上”为初心。在标准规范中明确界定时，规范的核心是“用户”的“实践需求”（浏览需求）>规范开发者（W3C/WHATWG）>浏览器。除此之外，CSS3规范还引入了一种新的安全模型用来保证CSS3的安全。
+                </p >
+            </div>
+        </div>
+
+        <!-- 底部平台支持区 -->
+        <div class="platform-support">
+            <h2>平台支持</h2>
+            <div class="platform-list">
+                <div class="platform-item">
+                    <!-- 替换为苹果图标 -->
+                    <img src="images/3.png" alt="Apple">
+                    <span>兼容苹果APP开发</span>
+                </div>
+                <div class="platform-item">
+                    <!-- 替换为微信图标 -->
+                    <img src="images/4.png" alt="WeChat">
+                    <span>微信小程序开发</span>
+                </div>
+                <div class="platform-item">
+                    <!-- 替换为电脑图标 -->
+                    <img src="images/5.png" alt="Computer">
+                    <span>网站开发</span>
+                </div>
+                <div class="platform-item">
+                    <!-- 替换为笔记本图标 -->
+                    <img src="images/6.png" alt="Laptop">
+                    <span>桌面应用开发</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
