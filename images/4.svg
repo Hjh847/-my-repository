@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="WeChat icon">
+  <rect x="8" y="8" width="112" height="112" rx="18" fill="#DCFCE7"/>
+  <circle cx="48" cy="56" r="18" fill="#22C55E"/>
+  <circle cx="80" cy="50" r="16" fill="#22C55E"/>
+  <path d="M34 76c0-11 10-20 23-20s23 9 23 20-10 20-23 20c-3 0-6-1-9-2l-12 6 4-10c-2-2-4-5-4-14zm37 0c0-8 7-14 16-14s16 6 16 14-7 14-16 14c-3 0-6-1-9-2l-11 5 3-9c-2-2-4-4-4-8z" fill="#16A34A"/>
+</svg>
